@@ -1,4 +1,11 @@
+PRIORITIES (not necessarily in order of priority)
 
 1. Develop Game Theory
 2. Write Tests for EVERYTHING
 3. Write Docs for EVERYTHING
+
+IDEAS / PROPOSALS
+
+- GTK? or web interface? 
+- Should we store states? Organisms' genetic code?
+- Where/How to store data? Should we even store data?
