@@ -1,0 +1,10 @@
+
+[package]
+
+name = "redcentipede"
+version = "0.0.1"
+authors = [ "Jason Goldberger <jlgoldb2@asu.edu>", "Andrew Kelley <superjoe30@gmail.com>" ]
+
+[[bin]]
+
+name = "redcentipede"
