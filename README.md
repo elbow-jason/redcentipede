@@ -6,8 +6,8 @@ Red Centipede
 #### A Genetic Algorithm Project in Rust
 The concepts of this project borrow heavily from [andrewrk's planet-evo project](https://github.com/andrewrk/planet-evo "andrewrk's planet-evo"). 
 
-General Game Theory of Red Centipede
-============================
+##### General Game Theory of Red Centipede
+
 
 There exists:
 
