@@ -14,7 +14,7 @@ fn main() {
         x: 10,
         y: 10,
         value: 100,
-    };
+    }; 
 
     println!("\n")
     println!("I am first_agent my (x, y) is ({}, {})", first_agent.x, first_agent.y);
