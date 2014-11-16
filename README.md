@@ -31,12 +31,13 @@ __Time__ - Time is a discrete, turn-based cycle. During each cycle of Time, Agen
 
 
 
-In Red Centipede, each Agent has at least one Chromosome which is an array of sets instructions. A each set of instructions is called a Gene. The beginning of the execution of a Gene's instruction set incures a cost in Resource and a cost in Time.
+In Red Centipede, each Agent has at least one Chromosome which is an array of sets of instructions. A each set of instructions is called a Gene. For a gene to begin its execution
+The beginning of the execution of a Gene's instruction set incures a cost in Resource and a cost in Time.
 
 Necessary Genes (changes in these genes are most likely lethal):
 
 + reproduction_trigger - begins reproduction
 + reproduction_continue - allows reproduction to continue
-+
++ 
 
 ... more to come...

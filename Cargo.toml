@@ -5,6 +5,12 @@ name = "redcentipede"
 version = "0.0.1"
 authors = [ "Jason Goldberger <jlgoldb2@asu.edu>", "Andrew Kelley <superjoe30@gmail.com>" ]
 
+[dependencies.glutin]
+git = "https://github.com/tomaka/glutin"
+
+[dependencies.gl]
+git = "https://github.com/bjz/gl-rs"
+
 [[bin]]
 
 name = "redcentipede"
