@@ -12,6 +12,8 @@ fn main() {
         chromosomes: vec!["ABCD1234".to_string(), "11100101".to_string()],
     };
 
+
+
     let mut some_resource = Resource {
         location: Point {
             x: 10,
@@ -27,6 +29,7 @@ fn main() {
     println!("\n")
     println!("I am some_resource my (x, y) is ({}, {})", some_resource.location.x, some_resource.location.y);
     println!("I have {} resources.", some_resource.value);
+
 }
 
 pub struct Point {
@@ -36,7 +39,7 @@ pub struct Point {
 
 pub struct Agent  {
     pub location: Point,
-    reserves: int,
+    reserves: uint,
     chromosomes: Vec<String>,
 }
 
@@ -49,10 +52,30 @@ trait Mobile {
     fn travel(&mut self, delta_x: int, delta_y: int);
 }
 
+impl Agent {
+    fn new(x: int, y: int, resources: uint) -> Agent {
+        Agent {
+            location: Point {
+                x: x,
+                y: y,
+            },
+            reserves: resources,
+            chromosomes: vec!["needs".to_string(), "default".to_string()]
+        }
+    }
+}
 
 impl Mobile for Agent {
     fn travel(&mut self, delta_x: int, delta_y: int) {
         self.location.x = *&self.location.x + delta_x;
         self.location.y = *&self.location.y + delta_y;
     }
+}
+
+mod test {
+    #[test]
+    fn test_sanity() {
+        assert!(true)
+    }
+
 }
